@@ -65,4 +65,5 @@ if __name__ == "__main__":
     other_desktop = Desktop(240, 10, 22.5, "Nitro i5", "Acer")
     my_desktop.change_storage(200)
     print(my_desktop)
+    sleep(2.5)
     
