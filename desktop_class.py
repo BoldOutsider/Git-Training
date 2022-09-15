@@ -62,6 +62,7 @@ if __name__ == "__main__":
     from termcolor import colored
 
     my_desktop = Desktop(512, 8, 19.6, "VivoBook", "Asus")
+    other_desktop = Desktop(240, 10, 22.5, "Nitro i5", "Acer")
     my_desktop.change_storage(200)
     print(my_desktop)
     
